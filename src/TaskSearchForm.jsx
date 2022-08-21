@@ -20,7 +20,7 @@ const TaskSearchForm = ({handleSearch}) => {
             <input type="text" value={taskValue} onChange={handleSave} />
             <button onClick={onSearch}>Search for task</button>
             <button onClick={onReset}>Reset</button>
-        </div>
+        </div>  
     );
 };
 
