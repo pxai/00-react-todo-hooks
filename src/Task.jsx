@@ -27,7 +27,7 @@ const Task = ({task, handleUpdate, handleDelete}) => {
                 <input type="text" value={taskValue} onChange={setTask}/>
                 <button onClick={save}>Save</button>
             </div>
-        :   <div>
+        :   <div aria-label="task">
                 {task.id}
                 {task.name}
                 <button onClick={handleEdit}>Edit</button>
